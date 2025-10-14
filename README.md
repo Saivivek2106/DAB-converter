@@ -1,5 +1,5 @@
-⚡ Design and Simulation of a High-Efficiency SiC-Based Dual Active Bridge DC–DC Converter
-with Single Phase Shift (SPS) Control for EV Battery Charging
+⚡** Design and Simulation of a High-Efficiency SiC-Based Dual Active Bridge DC–DC Converter
+with Single Phase Shift (SPS) Control for EV Battery Charging** //
 📘 Overview
 
 This project presents the design and simulation of a Silicon Carbide (SiC)-based Dual Active Bridge (DAB) DC–DC converter for Electric Vehicle (EV) battery charging applications. The converter operates using Single Phase Shift (SPS) control to regulate bidirectional power flow between the source and the battery.
