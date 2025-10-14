@@ -1,67 +1,81 @@
-⚡** Design and Simulation of a High-Efficiency SiC-Based Dual Active Bridge DC–DC Converter
-with Single Phase Shift (SPS) Control for EV Battery Charging** //
-📘 Overview
+# ⚡ Design and Simulation of a High-Efficiency SiC-Based Dual Active Bridge DC–DC Converter with Single Phase Shift (SPS) Control for EV Battery Charging
 
-This project presents the design and simulation of a Silicon Carbide (SiC)-based Dual Active Bridge (DAB) DC–DC converter for Electric Vehicle (EV) battery charging applications. The converter operates using Single Phase Shift (SPS) control to regulate bidirectional power flow between the source and the battery.
+---
 
-By utilizing SiC MOSFETs, the system achieves higher switching frequencies, lower conduction losses, and improved efficiency compared to conventional silicon-based designs. The proposed converter demonstrates compactness, reliability, and exceptional energy conversion performance suited for next-generation EV chargers.
+## 📘 Overview
 
-🎯 Objectives
+This project presents the design and simulation of a **Silicon Carbide (SiC)-based Dual Active Bridge (DAB) DC–DC converter** for Electric Vehicle (EV) battery charging applications. The converter operates with **Single Phase Shift (SPS) control** to achieve high efficiency and bidirectional power flow, making it ideal for modern EV charging systems.
 
-Develop a SiC-based Dual Active Bridge converter model in MATLAB/Simulink.
+By utilizing **SiC MOSFETs**, the system achieves:
 
-Implement the Single Phase Shift (SPS) control strategy for efficient power regulation.
+- Higher switching frequencies  
+- Lower conduction losses  
+- Improved efficiency compared to conventional silicon-based designs  
 
-Optimize leakage inductance and switching parameters to achieve maximum efficiency.
+The proposed converter demonstrates significant improvements in power regulation and overall energy efficiency.
 
-Integrate a Constant Current–Constant Voltage (CC–CV) charging algorithm for stable battery charging.
+---
 
-Validate the design through simulation results and planned hardware implementation.
+## 🎯 Objectives
 
-⚙️ System Configuration
-Parameter	Description
-Input Voltage	400 V DC
-Battery Voltage	60 V (Nominal), 120 Ah
-Switching Frequency	50 kHz
-Transformer Rating	1 kVA, Turns Ratio 6.67:1
-Leakage Inductance	95 µH
-Input/Output Capacitance	1200 µF each
-🔋 Working Principle
+- **Develop** a SiC-based Dual Active Bridge converter model in MATLAB/Simulink.
+- **Implement** the Single Phase Shift (SPS) control strategy for efficient power regulation.
+- **Optimize** leakage inductance and switching parameters to achieve maximum efficiency.
+- **Integrate** a Constant Current–Constant Voltage (CC–CV) charging algorithm for stable battery charging.
+- **Validate** the design through simulation results and planned hardware implementation.
 
-The DAB converter transfers power by controlling the phase shift between primary and secondary bridge voltages.
+---
 
-Positive phase shift → power flows from source to battery (charging).
+## ⚙️ System Configuration
 
-Negative phase shift → power flows in the opposite direction (discharging).
-The SPS control maintains simplicity and enables bidirectional power flow with near Zero-Voltage Switching (ZVS) conditions, ensuring reduced switching losses and improved reliability.
+| Parameter             | Description               |
+|-----------------------|--------------------------|
+| **Input Voltage**     | 400 V DC                 |
+| **Battery Voltage**   | 60 V (Nominal), 120 Ah   |
+| **Switching Frequency**| 50 kHz                  |
+| **Transformer Rating**| 1 kVA, Turns Ratio 6.67:1|
+| **Leakage Inductance**| 95 µH                    |
+| **Input/Output Capacitance** | 1200 µF each     |
 
-📊 Simulation Highlights
+---
 
-Developed and simulated in MATLAB/Simulink.
+## 🔋 Working Principle
 
-Achieved efficiency up to 96.78% with optimized inductor design (95 µH).
+The DAB converter transfers power by controlling the **phase shift** between primary and secondary bridge voltages.
 
-Delivered 4.1 kW power output at a phase shift of 63°.
+- **Positive phase shift** → Power flows from source to battery (**charging**)
+- **Negative phase shift** → Power flows in the opposite direction (**discharging**)
 
-Maintained stable 60 V output and continuous inductor current in triangular waveform.
+The **SPS control** maintains simplicity and enables bidirectional power flow with near **Zero-Voltage Switching (ZVS)** conditions, ensuring reduced switching losses and improved reliability.
 
-✅ Key Outcomes
+---
 
-Demonstrated the feasibility of SiC-based DAB converters for high-efficiency EV charging.
+## 📊 Simulation Highlights
 
-Validated the effectiveness of SPS control for bidirectional energy transfer.
+- **Developed and simulated** in MATLAB/Simulink.
+- Achieved **efficiency up to 96.78%** with optimized inductor design (95 µH).
+- Delivered **4.1 kW power output** at a phase shift of 63°.
+- Maintained **stable 60 V output** and continuous inductor current in triangular waveform.
 
-Achieved significant efficiency gains and reduced thermal losses compared to traditional silicon converters.
+---
 
-🚀 Future Work
+## ✅ Key Outcomes
 
-Hardware implementation and real-time validation of the converter.
+- **Demonstrated** the feasibility of SiC-based DAB converters for high-efficiency EV charging.
+- **Validated** the effectiveness of SPS control for bidirectional energy transfer.
+- **Achieved** significant efficiency gains and reduced thermal losses compared to traditional silicon converters.
 
-Integration of closed-loop CC–CV control for enhanced charging performance.
+---
 
-Testing for scalability and robustness in practical EV charging systems.
+## 🚀 Future Work
 
-🧑‍🏫 Supervision
+- **Hardware implementation** and real-time validation of the converter.
+- **Integration of closed-loop CC–CV control** for enhanced charging performance.
+- **Testing for scalability and robustness** in practical EV charging systems.
 
-Guide: Prof. Monalisa Pattnaik
+---
+
+## 🧑‍🏫 Supervision
+
+**Guide:** Prof. Monalisa Pattnaik  
 Department of Electrical Engineering, NIT Rourkela
